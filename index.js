@@ -7,4 +7,4 @@ import db from "./core/database.js";
 app.listen(
     PORT,
     () => console.log(`listening at: ${PORT}`))
-);
+
