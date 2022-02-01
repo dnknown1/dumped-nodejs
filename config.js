@@ -4,7 +4,7 @@ import express from "express";
 
 dotenv.config();
 
-const PORT = process.env.SERVER_PORT||8000;
+const PORT = process.env.PORT||8000;
 
 const DB = {
   URI: process.env.DB_URI,
